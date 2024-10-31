@@ -1,0 +1,69 @@
+.content{
+width: 600px;
+margin: 10px auto;
+height: auto;
+border: 2px solid #3868A8;
+}
+	.content .header{
+	height: 158px;
+	background: #3868A8 url(../img/logo1.jpg) no-repeat;
+	}
+	.content .footer{
+	height: 40px;
+	background-color: #3868A8;
+	float: bottom;
+	}
+	.content .body{
+	background-color: #F2F7FE;
+	margin: 0px;
+	padding: 10px;
+	color: #4E7FB9;
+	font-size: 14px;
+	font-weight: 900;
+	}
+		.content .body .info-msg{
+		border: 1px solid #E6D0D1;
+		padding: 5px;
+		color: #666666;
+		background-color: #BFFCC4;
+		}
+		.content .body form{
+		margin: 30px 0px;	
+		}
+		
+	.option{
+	min-height: 50px;
+	margin: 5px 30px;
+	}
+		.option .caption{
+		width: 200px;
+		float: left;
+		}
+		.option input{
+		border-color: #E3E3E3;
+		border-style: groove ridge solid solid;
+		border-width: 3px 3px 1px 1px;
+		color: #70819B;
+		font-family: Georgia,Times New Roman,Times,serif;
+		font-style: italic;
+		width: 150px;
+		}
+	.content .body .frm-buttons{
+	margin-left: 200px;
+	}
+	
+	.footer{
+	padding: 2px 0px;
+	}
+	.footer p{
+	margin: 10px 30px;
+	}
+		.footer p span{
+		margin-left: 20px;
+		}
+			.footer p span a{
+			font-weight: 900;
+			font-size: 12px;
+			text-decoration: none;
+			color: white;
+			}
